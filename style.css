@@ -2,33 +2,63 @@
     box-sizing: border-box;
   }
 
-  body {
+  /* .body {
     font-size: 24px;
     line-height: 32px;
     color: #333;
-  }
+    border: 10px black;
+  } */
   
   .h1 {
     padding: 20px;
     margin-bottom: 20px;
     color: #333;
     background: #ccc;
+    text-align: center;
+    font-size: 14px;
   }
 
   .nav {
     padding: 20px;
     margin-bottom: 20px;
-    background-color: #666666;
-    float: left;
-    width: 100%;
     color: #333;
     background: #ccc;
+    text-align: center;
+    font-size: 14px;
   }
 
   .wrapper {
     width: 600px;
+    height: 700px;
     padding: 20px;
     margin: 20px;
-    background-color: bisque;
-    border: 5px black;
+    background-color: dimgray;
+  }
+
+  .aside {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    background-color: #ccc;
+    float: right;
+    width: 200px;
+    height: 150px;
+  }
+  .sec1 {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    background-color: #ccc;
+    float: left;
+    width: 350px;
+    height: 150px;
+  }
+
+  .foot {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    background: #ccc;
+    text-align: center;
+    font-size: 14px;
   }
